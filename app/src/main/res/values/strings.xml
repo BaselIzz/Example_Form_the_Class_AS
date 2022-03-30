@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="enter_name">Enter Name:</string>
+    <string name="enter_fav_pl">Enter Fav. pl</string>
+    <string name="submit">Submit</string>
+</resources>

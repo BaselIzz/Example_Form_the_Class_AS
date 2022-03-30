@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical"
+    android:layout_margin="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_name"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginBottom="30dp"
+
+        android:autofillHints="example : Samir"
+        tools:ignore="LabelFor"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_fav_pl"
+        android:textSize="40sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_fav"
+        android:textSize="40sp"
+        android:autofillHints="example : Java"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:text="@string/submit"
+        android:id="@+id/btn_Submit"
+        android:onClick="Submit"
+        android:textSize="16sp"
+         />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
